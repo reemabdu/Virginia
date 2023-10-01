@@ -44,6 +44,7 @@ body {
   height: 100%;
   width: 100%;
   top: 0;
+  left: 0;
   background-color: rgba( 0,0 , 0, 0.2) ;
 }
 
@@ -100,11 +101,7 @@ body {
 }
 
 
-.btn:hover {
-  opacity: 0.8;
-  background-color: #9a8b27;
-  color: #fefdfd;
-}
+
 .logo img{
   position: absolute;
   float: left;
@@ -148,6 +145,11 @@ text-decoration: underline;
 
   
 } 
+.btn:hover {
+  opacity: 0.8;
+  background-color: #9a8b27;
+  color: #fefdfd;
+}
 .section1{
   margin-top: 50px;
   margin-bottom: 50px;
